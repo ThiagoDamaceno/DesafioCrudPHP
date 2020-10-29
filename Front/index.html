@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body> 
+    <div id="container">
+        <div id="container-botoes-abas">
+            <button id="btn-apresentar" class="btn-aba btn-aba-ativo">Apresentar</button>
+            <button id="btn-cadastrar" class="btn-aba">Cadastrar</button>
+        </div>
+        <div id="container-cadastrar" class="d-none">
+            <h1>Cadastrar Card</h1>
+            <input class="w-100" type="text" id="nome" placeholder="Nome">
+            <input class="w-100" type="text" id="descricao" placeholder="Descrição">
+            <button class="w-80 btn-enviar">Enviar</button>
+        </div>
+
+        <div id="container-apresentar">
+
+        </div>
+    </div>
+    
+    <script src="cadastrar.js"></script>
+    <script src="modificarInterface.js"></script>
+    <script src="obterDados.js"></script>
+</body>
+</html>

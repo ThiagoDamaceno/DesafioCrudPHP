@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: monospace;
+    background-color: rgb(11, 190, 245);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+#container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#container-botoes-abas {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+#container-cadastrar {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+
+.w-100 {
+   width: 100%; 
+}
+
+.w-80 {
+    width: 80%; 
+}
+
+h1 {
+    margin: 10px;
+}
+
+input {
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid rgb(11, 190, 245);
+    padding: 5px;
+}
+
+.btn-enviar {
+    margin-top: 20px;
+    border: 1px solid transparent;
+    padding: 10px;
+    background-color: rgb(11, 190, 245);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 300ms;
+}
+
+.btn-enviar:hover {
+    transition: 300ms;
+    cursor: pointer;
+    background-color:white;
+    color: rgb(11, 190, 245);
+    border-color: rgb(11, 190, 245);
+}
+
+.d-none {
+    display: none !important;
+}
+
+#container-apresentar {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.card-container {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin: 5px;
+    width: 800px;
+}
+
+.btn-aba {
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+
+    transition: 400ms;
+}
+
+.btn-aba-ativo {
+    font-size: 25px;
+    transition: 400ms;
+}
+h4 {
+    margin: 5px 0;
+}
+span {
+    margin: 5px 0;
+}
